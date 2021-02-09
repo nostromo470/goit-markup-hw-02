@@ -5,31 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/modern-normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/variables.css">
 </head>
 <body>
     <header>
-            <nav>
-                <a href="/"><span>Web</span>Studio</a>
-                <ul>
-                    <li><a href="./index.html">Студия</a></li>
-                    <li><a href="./portfolio.html">Портфолио</a></li>
-                    <li><a href="">Контакты</a></li>
-                </ul>
-            </nav>
+        <nav>
+            <a href="/" class="logo"><span class="web-color">Web</span>Studio</a>
             <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li><a href="./index.html" class="header-links">Студия</a></li>
+                <li><a href="./portfolio.html" class="header-links">Портфолио</a></li>
+                <li><a href="" class="header-links">Контакты</a></li>
             </ul>
+        </nav>
+        <ul>
+            <li><a href="mailto:info@devstudio.com" class="mail-tel">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111" class="mail-tel">+38 096 111 11 11</a></li>
+        </ul>
     </header>
     <main>
             <section>
-                <h2>Портфолио</h2> <!-- В окончательном варианте данную строку скрыть от просмотра!-->
+                <h2 style="position: absolute; visibility: hidden;">Портфолио</h2> <!-- В окончательном варианте данную строку скрыть от просмотра!-->
                 <ul>
-                    <li><button>Все</button></li>
-                    <li><button>Веб-сайты</button></li>
-                    <li><button>Приложения</button></li>
-                    <li><button>Дизайн</button></li>
-                    <li><button>Маркетинг</button></li>
+                    <li><button class="portfolio-button">Все</button></li>
+                    <li><button class="portfolio-button">Веб-сайты</button></li>
+                    <li><button class="portfolio-button">Приложения</button></li>
+                    <li><button class="portfolio-button">Дизайн</button></li>
+                    <li><button class="portfolio-button">Маркетинг</button></li>
                 </ul>
     
                 <ul>
@@ -82,13 +87,15 @@
             </section>
     </main>
     <footer>
-        <a href="/"><span>Web</span>Studio</a>
-        <h3>Контакты</h3> <!-- В окончательном варианте данную строку скрыть от просмотра!-->
+        <a href="/" class="logo-foot"><span class="web-color">Web</span>Studio</a>
+        <h3 style="position: absolute; visibility: hidden;">Контакты</h3>
+        <!-- В окончательном варианте данную строку скрыть от просмотра!-->
         <address>
-            <a href="https://goo.gl/maps/aYshD57GHmabaSue6" target="_blank"> г. Киев, пр-т Леси Украинки, 26</a>
             <ul>
-                <li><a href="mailto:info@example.com">info@example.com</a></li>
-                <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+                <li><a href="https://goo.gl/maps/aYshD57GHmabaSue6" target="_blank" class="adress"> г. Киев, пр-т Леси
+                        Украинки, 26</a></li>
+                <li><a href="mailto:info@example.com" class="mail-tel-foot">info@example.com</a></li>
+                <li><a href="tel:+380991111111" class="mail-tel-foot">+38 099 111 11 11</a></li>
             </ul>
         </address>
     </footer>

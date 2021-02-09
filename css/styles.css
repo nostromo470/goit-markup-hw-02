@@ -1,0 +1,87 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+}
+
+.web-color {
+  color: var(--blue-text);
+}
+
+.header-links {
+  color: var(--black-text);
+}
+
+.header-links:hover {
+  color: var(--blue-text);
+}
+
+.header-links:active {
+  color: red;
+}
+
+.mail-tel {
+  color: var(--grey-text);
+}
+
+.mail-tel:hover {
+  color: var(--blue-text);
+}
+
+.mail-tel:active {
+  color: red;
+}
+
+.hero {
+  background-color: var(--back-hero-footer-grey);
+}
+.hero-button {
+  border: none;
+  color: var(--white-text);
+  background-color: var(--blue-text);
+}
+.h1-title {
+  text-transform: uppercase;
+  color: var(--white-text);
+}
+
+.command {
+  background-color: var(--botton-command-grey);
+}
+
+footer {
+  background-color: var(--back-hero-footer-grey);
+}
+
+.logo-foot {
+  font-family: 'Raleway', sans-serif;
+  color: var(--white-text);
+}
+
+.adress {
+  color: var(--white-text);
+}
+
+.mail-tel-foot {
+  color: var(--grey-text-op60);
+}
+
+.portfolio-button {
+  border: none;
+  background-color: var(--botton-command-grey);
+}
+
+.portfolio-button:hover {
+  border: none;
+  color: var(--white-text);
+  background-color: var(--blue-text);
+}
+
+.portfolio-button:focus {
+  border: none;
+  color: var(--white-text);
+  background-color: var(--blue-text);
+}
